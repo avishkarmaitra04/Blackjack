@@ -19,17 +19,17 @@ A command-line Blackjack game written in Python by [@avishkarmaitra04](https://g
 
 ## ▶️ How to Play 
 
--Start the game in your terminal.
--You begin with ₹1000 balance.
--Enter your bet using chip-style amounts or full value.
--Choose actions:
- -Hit: Take another card
- -Stand: End your turn
- -Double Down: Double bet + one card (only 1st turn)
- -Split: Split if dealt a pair
- -Insurance: Available when dealer shows Ace
--Win/lose/draw affects balance and stats.
--The game ends when you're out of money or exit manually.
+- Start the game in your terminal.
+- You begin with ₹1000 balance.
+- Enter your bet using chip-style amounts or full value.
+- Choose actions:
+ - Hit: Take another card
+ - Stand: End your turn
+ - Double Down: Double bet + one card (only 1st turn)
+ - Split: Split if dealt a pair
+ - Insurance: Available when dealer shows Ace
+- Win/lose/draw affects balance and stats.
+- The game ends when you're out of money or exit manually.
 
 ## 🌐 Future Plans
 
@@ -38,7 +38,7 @@ A command-line Blackjack game written in Python by [@avishkarmaitra04](https://g
 - 🧑‍🤝‍🧑 Multiplayer support
 - ☁️ Online deployment
 
-🤝 Contributions
+## 🤝 Contributions
 Suggestions, issues, or forks are welcome!
 Let’s make Blackjack smarter and cleaner together.
 
