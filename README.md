@@ -23,11 +23,11 @@ A command-line Blackjack game written in Python by [@avishkarmaitra04](https://g
 - You begin with ₹1000 balance.
 - Enter your bet using chip-style amounts or full value.
 - Choose actions:
- - Hit: Take another card
- - Stand: End your turn
- - Double Down: Double bet + one card (only 1st turn)
- - Split: Split if dealt a pair
- - Insurance: Available when dealer shows Ace
+  - Hit: Take another card
+  - Stand: End your turn
+  - Double Down: Double bet + one card (only 1st turn)
+  - Split: Split if dealt a pair
+  - Insurance: Available when dealer shows Ace
 - Win/lose/draw affects balance and stats.
 - The game ends when you're out of money or exit manually.
 
