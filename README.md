@@ -1,12 +1,6 @@
 # 🃏 Blackjack CLI Game (Python)
 
-A command-line Blackjack game written in Python by [@avishkarmaitra04](https://github.com/avishkarmaitra04). This version features:
-- Classic Blackjack gameplay against a computer dealer
-- Full betting system (with insurance, double down, split)
-- Balance tracking across rounds
-- Automatic dealer logic
-- Player statistics (wins, losses, pushes)
-- Game continues until balance hits ₹0
+A command-line Blackjack game written in Python by [@avishkarmaitra04](https://github.com/avishkarmaitra04). This version features betting, insurance, double down, and split hand logic — all playable in the terminal!
 ## 🚀 Features
 
 - 💰 Betting system with balance tracking
