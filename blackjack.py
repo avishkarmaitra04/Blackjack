@@ -22,11 +22,11 @@ def compare(u_score, c_score):
     elif u_score > 21:
         return "You went over. You lose 😭", -1
     elif c_score > 21:
-        return "Opponent went over. You win 😁", 1
+        return "Opponent went over. You win 😤", 1
     elif u_score > c_score:
-        return "You win 😃", 1
+        return "You win 🥳", 1
     else:
-        return "You lose 😤", -1
+        return "You lose 🥺", -1
 
 def update_stats(stats, result):
     stats["games"] += 1
@@ -101,13 +101,11 @@ def play_game(balance, stats):
         print(f"\nYour cards: {cards}, score: {score}")
     print(f"Dealer's first card: {dealer[0]}")
 
-    # Insurance
     if dealer[0] == 11 and balance - bet >= bet // 2:
         if ask_yes_no("Dealer shows Ace. Take insurance?") == 'y':
             insurance_bet = bet // 2
             print(f"Insurance placed: ₹{insurance_bet}")
-
-    # Split
+            
     if cards[0] == cards[1] and balance >= bet * 2:
         if ask_yes_no("Split?") == 'y':
             hands = [[cards[0], deal_card()], [cards[1], deal_card()]]
@@ -144,7 +142,6 @@ def play_game(balance, stats):
         print(f"Your updated balance: ₹{balance}")
         return 'continue', balance
 
-    # Dealer plays normally
     while dealer_score < 17:
         dealer.append(deal_card())
         dealer_score = calculate_score(dealer)
@@ -191,4 +188,4 @@ while True:
         print("Thanks for playing! 🎉")
         break
     else:
-        print("\n🆕 New game starting...\n")
+        print("\n🆕 New game starting ...\n")
